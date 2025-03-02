@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 200px auto;
+    display: flex;  
+    justify-content: center; 
+    align-items: center;  
+    text-align: center; 
+    flex-direction: column; 
+    width: fit-content;
+    padding: 25px;
+    border: 3px solid black; 
+    border-radius: 8px;
+    background-color: lightyellow;
+
+}
+
+input[type="text"] {
+   text-align: left;
+   gap: 2px;
+}
+
+
+input, button {
+    width: 300px; 
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+
+}
+
+input[type="button"]:hover {
+    background-color: lightblue;
+    color: black;
+
+}
+
+button {
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 300px;
+    padding :50px;
+}
+
+button:hover {
+    background-color: orange;
+    color: black;
+}
+
+
+#mydiv {
+    margin-top: 15px;
+    padding: 0px;
+    background-color: white;
+    border-radius: 5px;
+    width: 300px;
+
+}
